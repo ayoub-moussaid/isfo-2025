@@ -1,0 +1,317 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    /* background-color: #f9f9f9; */
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;   /*chkal */
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+#our{
+    color: #e6b800;
+}
+/* menu */
+
+
+/* Hero Section */
+.hero {
+    background-image: url('banner.jpeg'); /* Add a background image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 90px 20px;
+}
+
+.hero-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #ffcc00;
+    color: #ffebeb;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #e6b800;
+}
+/* menu */
+#menu {
+    padding: 20px; 
+   /* max-width: 600px; */
+   box-sizing: border-box;
+   margin: 20px;
+ }
+ 
+ 
+ .div1{
+   display: flex;
+ }
+ .menu-category h2 {
+   font-size: 1rem;
+   color: #333;
+   border-bottom: 2px solid #ffcc00;
+   color: #ffcc00;
+   margin-bottom: 1px; 
+   text-align: center;font-size: 2rem;
+   text-decoration: underline;
+ }
+ 
+ 
+
+ .item-name {
+   font-weight: bold;
+  
+   font-size: 0.5rem;
+   text-decoration: underline #ffcc00;
+   color: #ffcc00;
+ }
+ 
+
+ 
+ .item-description {
+   margin: 2px ;
+   color: #666;
+   font-size: 0.6rem;
+   color: rgb(255, 255, 255);
+ }
+
+
+/* Products Section */
+.products {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+     flex-wrap: wrap; /*wch tkml f star */
+}
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+    width:200px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+    
+}
+.product-card:hover{
+    transform: scale(105%);
+}
+
+.product-card img {
+    width: 180px; 
+    height: 200px; 
+    object-fit: cover;  /*kfch tkon tswera f cart */
+    border-radius: 10px; 
+}
+
+.product-card h3 {
+    font-size: 1.5rem;
+     margin: 10px 0;  /*fo9,ta7t */
+}
+
+.product-card p {
+    font-size: 1rem;
+    margin: 5px 0; /*fo9,ta7t */
+}
+
+.product-card .price {
+    font-size: 1.2rem;
+    color: #ff6600;
+    font-weight: bold;
+    
+}
+
+.product-card button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;  /*  mli dawz 3la add */
+}
+
+.product-card button:hover {
+    background-color: #555;
+}
+#you{
+    font-size: 20px;
+}
+
+/* About Section */
+.about {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+    background-image: url("download.jpeg");
+    color:#fff;
+}
+a{
+    color: aqua;
+}
+a:hover{
+    background: #e6b800;
+    border-radius: 5px;
+    border: 1px;
+}
+
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ffcc00;
+    text-decoration: underline;
+}
+
+.about p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+    color: #e6b800;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-decoration: underline
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact form label {
+    color: #fff;
+    display: block;
+    margin-bottom: 5px;
+    /* font-weight: bold; */
+}
+
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+   cursor: pointer;     /*  dawz eliha */
+}
+
+.contact form button:hover {
+    background-color: #555;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+/* Background video takes full screen */
+.video-background {
+     position: fixed;   /*bch yb9a yban wa5a t7ark */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video covers the full screen */
+    z-index: -1;  /*behind */
+}
+/* Responsive */
+  @media (max-width: 768px) {
+    body {
+      font-size: 16px;
+      background-color: lightgray;
+    }
+  }
+  
+  /* Quand l'écran est plus petit que 480px (téléphone) */
+  @media (max-width: 480px) {
+    body {
+      font-size: 14px;
+      background-color: lightblue;
+    }
+  }
+/*
+  
+  /* Menu Section */
+ 
+ strong{
+   color: saddlebrown;
+ }
+ header .logo h1 {
+    margin: 0;
+}
+
+
